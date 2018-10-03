@@ -26,11 +26,12 @@ Usage is pretty straight forward:
 
 ## Web Usage
 在命令行下载代码
-``bash
+```bash
     git clone https://github.com/eyebug/php-yt_downloader.git
     cd php-yt_downloader
     php  -S localhost:8000 -t examples
-``
+```
+
 然后访问 http://localhost:8000/ 即可
 
 You can provide either a YouTube URL (as used in the example), or a Youtube Video-ID. The class will check whether the given  input value is a YouTube URL, or a YouTube Video-ID . If it's a URL, the ID will be extracted automatically. So, 
